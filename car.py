@@ -26,10 +26,8 @@ for i in range(681):
     sun(50+i ,50-i)
     car('orange' ,car_x + i , 350)
     animation_scene.sleep(10)
-    if car_x + i == 251:
+    if car_x + i == 251: # car stops at colision
         car(301,350)
-        for i in range(50):
-            smoke(0,0-i)
         
         
         
